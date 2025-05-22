@@ -26,7 +26,7 @@ export function SkillsShowcase() {
             Technical Skills
           </h2>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            My expertise across various technologies and tools
+            A comprehensive toolkit of AI, automation, and full-stack development tools and technologies used to build, deploy, and scale intelligent             systems across enterprise environments.
           </p>
         </motion.div>
 
