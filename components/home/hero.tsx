@@ -1,4 +1,4 @@
-// components/home/hero.tsx
+na// components/home/hero.tsx
 "use client";
 
 import { useState, useEffect } from "react";
@@ -11,10 +11,11 @@ import { socialLinks } from "@/data/social";
 export function Hero() {
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
   const displayedSkills = [
-    "Full Stack Developer",
-    "Web3 Enthusiast",
-    "Machine Learning Practitioner",
-    "UI/UX Designer"
+    "AI Engineer",
+    "AI Developer",
+    "AI Conversational Designer",
+    "AI Chatbot Designer",
+    "Machine Learning Practitionerr"
   ];
 
   // Parallax effect setup
@@ -70,7 +71,7 @@ export function Hero() {
                 transition={{ duration: 0.5 }}
               >
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Hi, I&apos;m Achyut Katiyar
+                  Hi, I&apos;m Sheena Lindsey-Smith
                 </h1>
               </motion.div>
               <motion.div
@@ -102,9 +103,10 @@ export function Hero() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="max-w-[600px] text-muted-foreground md:text-xl"
               >
-                A passionate developer with expertise in Next.js, React, Tailwind CSS,
-                and blockchain technologies. Currently pursuing a Master&apos;s in Computer Science
-                at Northeastern University.
+                A results-driven AI Engineer/Developer with expertise in specialize in
+                agentic AI systems, generative models, NLP pipelines, and intelligent workflow 
+                automation, combining cutting-edge LLMs, with low-code/no-code platforms to build
+                solutions that drive measurable business impact.
               </motion.p>
             </div>
             
