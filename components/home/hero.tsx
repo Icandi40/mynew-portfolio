@@ -13,9 +13,10 @@ export function Hero() {
   const displayedSkills = [
     "AI Engineer",
     "AI Developer",
+    "Generative AI Engineer"
     "AI Conversational Designer",
     "AI Chatbot Designer",
-    "Machine Learning Practitionerr"
+    "Machine Learning Practitioner",
   ];
 
   // Parallax effect setup
